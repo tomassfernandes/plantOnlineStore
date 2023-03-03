@@ -1,0 +1,204 @@
+/*HEADER*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:  #46476c;
+}
+
+header {
+    display: flex;
+    align-content: center;
+    height: 4.5rem;
+    border-bottom: 0.3rem solid #e4a63b;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/006/402/465/non_2x/botanical-poster-illustration-foliage-drawing-with-abstract-shapes-leaves-ferns-and-flowers-art-print-abstract-nature-and-plants-design-for-background-wallpaper-card-wall-art-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: 80rem;
+}
+
+#menu-bar {
+  width: 4rem;
+  height: 4rem;
+  margin-left: 0.8rem;
+  margin-right: auto;
+  margin-top: 0.2rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+#shop {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+  margin-left: auto;
+  margin-top: 0.2rem;
+  background-color: white;
+  border-radius: 1rem;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+
+/*BODY*/
+
+
+#title {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 5rem;
+  color: #e4a63b;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+}
+
+.main-container {
+  display: flex;
+  width: 100%;
+  height: 30rem;
+  display: inline-block;
+}
+
+.flex-container {
+   display: flex;
+   margin-left: 2rem;
+   margin-top: 5rem;
+   height: 13rem;
+   width: 20rem;
+   display: block;
+   padding-left: 1rem;
+   border-radius: 1rem;
+}
+
+#intro-p {
+  font-size: 1.8rem;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+#produtos {
+  font-size: 1rem;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+}
+
+.center-container {
+  display: flex;
+  display: block;
+  margin-top: -12.3rem;
+}
+
+.center-container a {
+  text-decoration: none;
+}
+
+.flex-container2 {
+  display: flex;
+  background-color: #e8a6a7;
+  height: 4rem;
+  width: 22rem;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  justify-content: center;
+  border-radius: 2rem;
+}
+
+.flex-container2:hover {
+  background-color: #f6dbdc;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.topics {
+  color: black;
+  font-family: 'Dosis', sans-serif;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#know-us {
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  margin-top: 8rem;
+  color: white;
+}
+
+
+#know-us2 {
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  text-decoration: underline 0.2rem #c47979;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+#know-us2:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+
+
+
+/*FOOTER*/
+
+
+footer {
+  display: flex;
+  margin-top: 3rem;
+  height: 10rem;
+  width: 100%;
+  background-color: #e4e0e1;
+  border-top: 0.3rem solid #e4a63b;
+  display: inline-block;
+}
+
+.footer-content {
+  margin-left: 1rem;
+  line-height: 0.5rem;
+  margin-bottom: 2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contactos {
+  text-decoration: underline;
+}
+
+.media-container {
+  display: flex;
+  height: 4rem;
+  width: 8rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -10.5rem;
+}
+
+#twitter {
+  height: 4.5rem;
+  width: 4.5rem;
+  margin-left: -0.5rem;
+}
+
+#insta {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 0.3rem;
+}
+
+.horario {
+  line-height: 0.5rem;
+  font-family: 'Raleway', sans-serif;
+  margin-right: 1rem;
+  margin-left: auto;
+  height: 4rem;
+  width: 12rem;
+  margin-top: -4.5rem;
+}
